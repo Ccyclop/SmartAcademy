@@ -51,3 +51,27 @@ for (let i = 0; i < fruits.length; i += 2) {
     console.log("Index:", i, "Value:", fruits[i]);
 }
 
+// ----------------------------------------------------------------------------------------
+
+let i = 7;
+
+while (i <= 28) {
+  if (i === 16 || i === 22) {
+    i += 3;
+    continue;
+  }
+
+  console.log(i);
+  i += 3;
+}
+
+
+let sum = 0;
+
+for (let i = 1; i <= 34; i++) {
+  sum += i;
+}
+
+console.log(sum);
+
+
